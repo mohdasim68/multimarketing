@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>high wings</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- 
+    <div class="bag">
+        <div class="row container-fluid">
+            <div class="col-6 pt-1">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                </button>
+            </div>
+            <div class="col-6 head-log" align="right">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fas fa-info"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+    <!--Navbar -->
+    <nav class=" navbar navbar-expand-lg navbar-dark fixed-top transparent scrolling-navbar">
+        <button type="button" id="sidebarCollapse" class="btn btn-info">
+            <i class="fas fa-align-left"></i>
+        </button>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="navbar-nav mr-auto ">
+            <li class="list-inline-item container-fluid">
+                <a style="color:black" class="navbar-brand mc-auto" href="#">Billionaire Business India</a>
+
+            </li>
+        </ul>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+            <ul class="navbar-nav ml-auto ">
+                <li class="list-inline-item container-fluid">
+                    <a href="#">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">
+                        <i class="fas fa-info"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    </nav>
+
+    <div class="wrapper ">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <!-- <div class="sidebar-header backimg">
+                <h3>HIGH WINGS</h3>
+                <strong>HW</strong>
+            </div> -->
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#">
+                        <i class="fas fa-tv"></i> Dashboard
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#account" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-globe"></i> Network
+                    </a>
+                    <ul class="collapse list-unstyled" id="account">
+                        <li>
+                            <a href="sponser.html"> Sponser </a>
+                        </li>
+                        <li>
+                            <a href="team.html"> My Team </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-envelope-square"></i> Welcome Letter
+                    </a>
+                </li>
+                <li>
+                    <a href="register.html">
+                        <i class="fas fa-user-plus"></i> Register
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-bar"></i> E-wallet
+                    </a>
+                </li>
+                <li>
+                    <a href="payout.html">
+                        <i class="fas fa-chart-bar"></i> Payout
+                    </a>
+                </li>
+                <li>
+                    <a href="#PM" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-user"></i> Profile Management
+                    </a>
+                    <ul class="collapse list-unstyled" id="PM">
+                        <li>
+                            <a href="profileview.html"> View Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"> Edit Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"> Change Bank Details</a>
+                        </li>
+                        <li>
+                            <a href="#"> Change Pan Details</a>
+                        </li>
+                        <li>
+                            <a href="#"> KYC</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-tasks"></i> TDS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#MP" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-lock"></i> Manage Pins
+                    </a>
+                    <ul class="collapse list-unstyled" id="MP">
+                        <li>
+                            <a href="#">Transfer pins</a>
+                        </li>
+                        <li>
+                            <a href="#"> pin Status</a>
+                        </li>
+                        <li>
+                            <a href="#"> pin Issued</a>
+                        </li>
+                        <li>
+                            <a href="#"> pin Request</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#trip" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-plane"></i> Trips
+                    </a>
+                    <ul class="collapse list-unstyled" id="trip">
+                        <li>
+                            <a href="#"> My Trips</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-trophy"></i> Award And Reward
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-briefcase"></i> Products
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-phone"></i> Contact Us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Start Dashboard  -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <!--Panel-->
+                    <div class="card card-modify text-center">
+                        <div class=" card-header success-color white-text ">
+                            Your Package
+                        </div>
+                        <div class="card-body ">
+                            <h4 class="card-title ">Diamond package</h4><br>
+                            <!-- <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p> -->
+                            <a class="btn btn-clr btn-sm ">Invoice</a>
+                            <a class="btn btn-clr btn-sm ">Reciept</a>
+
+                        </div>
+
+                    </div>
+                    <!--/.Panel-->
+                </div>
+                <div class="col-lg-4 col-sm-12 ">
+                    <div class="card card-modify text-center">
+                        <div class=" card-header success-color white-text ">
+                            KYC Status
+                        </div>
+                        <div class="card-body ">
+                            <h4 class="card-title ">Approved</h4><br><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="card card-modify text-center">
+                        <div class=" card-header white-text ">
+                            Payout Details
+                        </div>
+                        <div class="card-body ">
+                            <h6 class="card-title ">Present:$2000</h6>
+                            <h6 class="card-title ">Previous:$1500</h6>
+                            <h6 class="card-title ">Total:$10000</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-8 col-sm-12 ">
+                    <!-- graph -->
+                    <div class="container">
+                        <div class="row my-3">
+                            <div class="col">
+                                <h4>Buisness Graph</h4>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <canvas id="chBar"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- End graph -->
+                </div>
+                <div class="col-lg-4 col-sm-12  ">
+                    <div class="row my-3">
+                        <div class="col">
+                            <h4>To do list</h4>
+                        </div>
+                    </div>
+                    <button class="btn  btn-circle  m-1">33</button>
+                    <button class="btn  btn-circle  m-1">23</button>
+                    <div class="row">
+                        <div class="col">
+                            <h6 align="center">Approved</h6>
+                        </div>
+                        <div class="col">
+                            <h6>Pending</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card text-left">
+                        <div class=" card-header white-text ">
+                            Top Earner
+                        </div>
+                        <div class="card-body ">
+                            <h6 class="card-title ">Name:XYZ</h6>
+                            <h6 class="card-title ">Earnings:$10000</h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End dashboard -->
+    <div class="footer"></div>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js " integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ " crossorigin="anonymous "></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js " integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm " crossorigin="anonymous "></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.0/js/mdb.min.js"></script>
+    <!-- custom javascript -->
+    <script type="text/javascript" src="js/temp.js"></script>
+
+</body>
+
+</html>
