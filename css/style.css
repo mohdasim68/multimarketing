@@ -1,0 +1,242 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    background: #fafafa;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Molle', cursive; */
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Jim Nightshade', cursive; */
+    font-family: 'Acme', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Jim Nightshade', cursive;
+}
+
+.homepage {
+    /* height: 500px !important; */
+    margin-bottom: 0 !important;
+}
+
+.logo {
+    height: 50px !important;
+    width: 80px;
+    padding-right: 10px;
+}
+
+.navbar .navbar-nav li a {
+    color: white !important;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #1E17E8 !important;
+    transition: 1s !important;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.navbar-nav .dropdown-menu a {
+    background-color: transparent;
+}
+
+img {
+    height: 680px !important;
+}
+
+.notification-text {
+    text-align: left !important;
+}
+
+#notification,
+#register {
+    padding-top: 50px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#qb {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#about,
+#gallery,
+#legal,
+#register,
+#trip {
+    height: 40px;
+}
+
+#products,
+#contactus {
+    height: 50px;
+}
+
+
+/* #contactus {
+    margin-bottom: 70px !important;
+} */
+
+h4,
+h2,
+.notification-text {
+    background: -webkit-linear-gradient( blue, rgb(58, 194, 204));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-header,
+.btn {
+    background-color: #1E17E8 !important;
+}
+
+.top-nav-collapse {
+    background: whitesmoke;
+}
+
+.top-nav-collapse .navbar-nav li a {
+    color: black !important;
+}
+
+.top-nav-collapse .navbar-nav li a :hover {
+    color: #1E17E8 !important;
+}
+
+.top-nav-collapse .navbar-brand {
+    color: black !important;
+}
+
+.top-nav-collapse i {
+    color: black !important;
+}
+
+.product-align {
+    margin-left: 10px;
+    margin-right: 30px !important;
+}
+
+.card-default {
+    padding: 0 !important;
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    height: 400px !important;
+    width: 400px !important;
+    /* background-color: #1E17E8; */
+}
+
+.column-align {
+    padding-bottom: 20px;
+}
+
+
+/* .acenter {
+    margin-left: 1100px;
+} */
+
+.img-header {
+    /* background: linear-gradient(rgba(20, 16, 238, 0.8), rgba(2, 238, 226, 0.7)), url("/home/asim/Downloads/cover-pic-1024x492.jpg"); */
+    /* background-position: center;
+    background-size: cover; */
+    color: rgb(103, 103, 112) !important;
+    transition: all 0.3s;
+    font-size: 20px;
+}
+
+.about-header,
+.trip-header,
+.legal-header,
+.gallery-header,
+.product-header {
+    margin-top: 50px;
+    text-align: center !important;
+    background: -webkit-linear-gradient( blue, rgb(58, 194, 204));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-text {
+    color: rgb(103, 103, 112) !important;
+}
+
+.image1 {
+    height: 650px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/plan.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+}
+
+.image2 {
+    height: 650px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../images/mlm-multi-level-marketing-concept-with-big-word-vector-27394760.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+}
+
+.image3 {
+    height: 650px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/Multilevel-marketing.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+}
+
+.container-img {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.container-img img {
+    height: 250px !important;
+}
+
+.trip-img {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* padding: 20px 20px 20px 20px; */
+    background-image: linear-gradient(to left top, blue, rgb(58, 194, 204));
+}
+
+.container-video {
+    margin: 30px 30px 30px 30px;
+    max-width: 1300px;
+    max-height: 500px;
+}
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    /*   .card-default {
+        height: 500px;
+        width: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    } */
+    .acenter {
+        margin-left: 100px !important;
+    }
+    /* img {
+        top: -80px;
+    } */
+    /* .align-list {
+        margin-left: 300px;
+    } */
+}
